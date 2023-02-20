@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Senator</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="bgimg"></div>
+
+  <h1 class="innercontent">United States Senate</h1>
+
+  <div class="wrapper">
+    <div class="party-count--container">
+    </div>
+
+    <div id="leadership_container" class="leadership_container">
+      <div id="leadership_container-title-box">
+        <div class="leadership_container-title">
+          <h2>Senators with Leadership Roles <span><img alt="right-arrow" id="accordion" src="./image/right-arrow.png"></span></h2>
+          <div id="leadership_list">
+          </div>
+        </div>
+      </div>
+    
+      <div class="dropdown">
+        <select aria-label="label for the select" class="dropbtn" id="partyoption" onchange="filterTable(this)">
+        </select>
+      </div>
+      <div class="dropdown">
+        <select class="dropbtn" id="stateoption" onchange="filterTable(this)"></select>
+      </div>
+      <div class="dropdown">
+        <select class="dropbtn" id="rankoption" onchange="filterTable(this)"></select>
+      </div>
+      <div class="dropdown" id="clear_all">
+        Clear All
+      </div>
+    </div>
+      <br>
+      <div class="filter_container">
+        <div class="filter_container--title">
+          Filtering by:
+        </div>
+        <div id="filter_container--values">
+    
+        </div>
+      </div>
+      <div id="dvTable">
+      </div>
+      <div class="active" id="pages">
+      </div>
+  </div>
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

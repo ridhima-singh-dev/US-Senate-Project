@@ -1,1 +1,2 @@
-# US-Senate-Project
+# WebApp-Assignment_2
+Assignment 2
