@@ -1,2 +1,1 @@
-# WebApp-Assignment_2
-Assignment 2
+#JavaScript and JSON Project
